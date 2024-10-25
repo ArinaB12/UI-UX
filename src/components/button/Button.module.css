@@ -1,0 +1,33 @@
+.btn 
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'El Messiri';
+    font-size: 16px;
+}
+   
+.btn-blue 
+{
+    background-color: #a3966a;
+    color: #482e1d;
+}
+
+.btn-small 
+{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.btn-medium 
+{
+    font-size: 16px;
+}
+
+.btn-large 
+{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+}

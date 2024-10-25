@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "El Messiri", serif;
+}
+
+.header {
+    background-image: url(../../pictures/cats.png);
+    padding: 20px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    color: #482E1D;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s linear;
+}
+
+.navItem:hover {
+    color: #A3966A;
+}
+    
+.navItem button {
+    background: none;
+    border: none;
+    color: #482e1d;
+    font-family: El Messiri;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navItem button:hover {
+    text-decoration: underline;
+    color: #A3966A;
+}
+
+.num {
+    color: #482E1D;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #A3966A;
+}
+
+.phonetext {
+    color: #482E1D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 700;
+}

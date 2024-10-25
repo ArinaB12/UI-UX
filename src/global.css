@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=El+Messiri:regular,500,600,700);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f0daae; 
+}
