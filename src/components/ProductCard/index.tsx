@@ -1,18 +1,21 @@
 import React from 'react';
-import styles from './ProductCard.module.css';
+import styles from './productCard.module.css';
 
 
-interface ProductCardProps {
+interface productCardProps {
     title: string;
     price: number;
-    imageUrl: string;
+    image: string;
 }
-export const ProductCard = ({ title, price, imageUrl }: ProductCardProps) => {
-    return (
-        <div className={styles.productCard}>
-            <img src={imageUrl} alt={title} className={styles.productImage} />
-            <h3 className={styles.productTitle}>{title}</h3>
-            <p className={styles.productPrice}>{price} ₽</p>
-        </div>
-    );
-};
+
+const ProductCard = ({ title, price, image }: productCardProps) => {
+     return (
+     <div className={styles.productCard}>
+        <img src={image} alt={title} className={styles.productImage} />
+        <h3 className={styles.productTitle}>{title}</h3>
+        <p className={styles.productPrice}>{price} ₽</p>
+     </div>
+     );
+    };
+    
+export default ProductCard;

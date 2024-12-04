@@ -5,24 +5,32 @@ body {
 
 .header {
     background-image: url(../../pictures/cats.png);
-    padding: 20px;
     height: 200px;
     background-repeat: no-repeat;
     background-size: 100%;
-    }
+    flex-direction: row;
+}
+
+.submenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
 
 .navList {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-top: -85px;
+    margin-left: 45px;
     padding: 0;
 }
 
 .navItem {
     color: #482E1D;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 45px;
     margin-right: 15px;
     transition: color 0.3s linear;
 }
@@ -36,7 +44,7 @@ body {
     border: none;
     color: #482e1d;
     font-family: El Messiri;
-    font-size: 25px;
+    font-size: 45px;
     cursor: pointer;
 }
 
@@ -47,7 +55,7 @@ body {
 
 .num {
     color: #482E1D;
-    text-decoration: underline;
+    font-size: 20px;
     font-weight: 600;
     transition: color 0.3s linear;
 }
@@ -56,13 +64,32 @@ body {
     color: #A3966A;
 }
 
+.basket{
+    margin-top: 15px;
+    margin-right:  20px;
+}
+
+.phoneimg{
+    margin-top: 15px;
+    margin-right:  20px;
+}
+
+.number{
+    margin-top: 15px;
+    margin-right:  20px;
+}
+
 .phonetext {
     color: #482E1D;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .name {
-    font-size: 40px;
+    color: #482E1D;
+    font-size: 90px;
     font-weight: 700;
+    margin-top: -15px;
+    margin-left: 45px;
 }
+

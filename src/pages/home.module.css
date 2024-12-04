@@ -1,0 +1,29 @@
+.rect{
+    background-color: #a3966a;
+    height: 200px;
+    width: 800px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 25%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+.food{
+    padding: 0 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.line {
+    margin-left: 40px;
+}
