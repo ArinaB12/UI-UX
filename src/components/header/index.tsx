@@ -31,8 +31,12 @@ export const Header = () => {
                     <li className={styles.navItem}>
                         <button onClick={() => navigate('/about')}>О нас</button>
                     </li>
+
+                    <li className={styles.navItem}>
+                        <button onClick={() => navigate('/сats')}>Факты</button>
+                    </li>
                 </ul>
-                <h3 className={styles.name}>BuhArinka~</h3>
+                <h3 className={styles.name}>БухАринка~</h3>
             </nav>
         </header>
     );

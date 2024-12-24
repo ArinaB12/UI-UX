@@ -1,0 +1,42 @@
+.history {
+    display: flex;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 7%;
+    flex-direction: row;
+}
+
+.me{
+    width: 300%;
+    height: auto;
+    margin-top: 29px;
+}
+
+.text{
+    margin-left: 40px;
+    margin-right: 6%;
+    font-size: 23px;
+    font-weight: 500;
+    color: #482E1D;
+}
+
+.recept{
+    width: 93%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: -95px;
+}
+
+.natural{
+    width: 93%;
+    height: auto;
+    margin-right: 7%;
+    margin-top: -25px;
+}
+
+.end{
+    width: 70%;
+    height: auto;
+    margin: -85px 15%;
+    margin-bottom: 35px;
+}

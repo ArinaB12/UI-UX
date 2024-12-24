@@ -31,6 +31,12 @@
     border-radius: 35px;
 }
 
+.btn-medium
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
 .btn-large 
 {
     font-size: 30px;

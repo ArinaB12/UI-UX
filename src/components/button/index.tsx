@@ -6,7 +6,7 @@ interface ButtonProps
     label: string;
     onClick: () => void;
     color?: 'blue' | 'red';
-    size?: 'small' | 'large';
+    size?: 'small' | 'medium' | 'large';
 }
 
 const Button = ({ label, onClick, color, size }: ButtonProps) => 

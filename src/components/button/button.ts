@@ -16,7 +16,7 @@ export const button = [
         id: 4
     },
     {   
-        label: 'Прочее',
+        label: 'Чебуреки',
         id: 5
     }
   ];

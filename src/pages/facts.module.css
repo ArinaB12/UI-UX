@@ -1,0 +1,47 @@
+.rect{
+    margin: 3% 2% 3% 12%;
+    padding: 20px 25px;
+    background-color: #a3966a;
+    color: #482e1d;
+    font-size: 20px;
+    width: 550px;
+    height: 320px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    margin: 1% 23%;
+    color: #482e1d;
+    font-size: 22px;
+    font-weight: 600;
+    width: 750px;
+}
+
+.sqr{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f0daae;
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.line{
+    display: flex;
+    margin-top: -50px;
+}
+
+.Musy{
+    width: 20%;
+    height: auto;
+    margin: 5% 0;
+}
+
+.Busy{
+    width: 35%;
+    height: auto;
+    right: 0;
+    margin-top: -20px;
+}

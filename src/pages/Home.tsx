@@ -10,7 +10,9 @@ function Home()
     return (
         <div>
             <div className={styles.rect}>
-                <h1>Мы рады приветствовать вас на главной странице сайта пекарни БухАринка~! <br /> Уже более 0 лет мы лелеем нашу мечту об открытии своей пекарни и более ничего не делаем! Однако теперь у нас есть сайт! <br /> Наслаждайтесь!</h1>
+                <a href="*">
+                    <img src="src/pictures/Greating.png" alt="" />
+                </a>
             </div>
             <div className={styles.line}>
                 {button.map((button) => (
@@ -21,12 +23,6 @@ function Home()
                         size="large"
                     />
                 ))}
-                <Button
-                    label=">"
-                    onClick={() => alert('Кнопка нажата!')}
-                    color="blue"
-                    size="small"
-                    />
             </div>
             <div className={styles.food}>
                 {Products.map((product) => (
